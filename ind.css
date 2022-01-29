@@ -442,6 +442,7 @@ h3{
         width:300px;
         border: 1px solid #5c6164;
         padding: 5px;
+        padding-left:0;
     }
     .srttrading{
         background-color:#ff6600;
@@ -460,8 +461,9 @@ h3{
     }
     .lline{
         font-size: 10px;
+        line-height: normal;
     }
-    .art h1{
+    .h1{
         font-size: 24px;
     }
     .rc{
