@@ -407,8 +407,11 @@ h3{
        
     }
     #logo3{
-        height: 50px;
-        width:100px;
+        height:auto;
+        width:auto;
+        max-width:100px;
+        max-height:100px;
+        
     }}
 .fname,.lname,.email{
     background: transparent;
