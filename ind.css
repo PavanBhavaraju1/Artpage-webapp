@@ -410,6 +410,29 @@ h3{
         height: 50px;
         width:100px;
     }
+    .fname,.lname,.email{
+    background: transparent;
+    font-size:20px;
+    margin: 10px;
+    height:30px;
+    width:250px;
+    border: 1px solid #5c6164;
+    padding:10px;
+}
+.srttrading{
+    background-color:#ff6600;
+    color: white;
+    font-size:15px;
+    font-weight: 600;
+    margin: 0px 15px 15px 15px ;
+    height:40px;
+    width:200px;
+    border: 1px solid #5c6164;
+    padding:10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
 
 
 
