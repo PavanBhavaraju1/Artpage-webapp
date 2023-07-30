@@ -5,6 +5,7 @@
     overflow-x:"hidden";
 }
 
+
 .header{
     min-height: 100vh;
     width:100%;
@@ -14,13 +15,14 @@
     position: relative;
 
 }
+
 body{
-    
+
     border-radius: 0px;
     position: relative;
     background-size: cover;
     background-image:url("des.png");
-    
+
 
 }
 nav{
@@ -54,7 +56,8 @@ nav img{
   content: "";
   width:0%;
   height:2px;
-  background:#ff6600;
+  background:
+#f17b2d;
   display:block;
   margin:auto;
   transition:0.5s;
@@ -77,7 +80,7 @@ nav img{
     .tb p{
         margin:10px 0 40px;
         font-size:15px;
-        
+
         color:#fff;
     }
     .t-btn{
@@ -92,10 +95,14 @@ nav img{
 
     }
     .t-btn:hover{
-        border:1px solid #ff6600;
-        background:#ff6600;
+        border:1px solid
+
+        #f17b2d;
+        background:
+
+#f17b2d;
         transition:0.5s;
-        
+
     }
     nav .fas{
         display:none;
@@ -116,7 +123,9 @@ nav img{
         }
         .nav-links{
             position:absolute;
-            background:#ff6600;
+            background:
+
+#f17b2d;
             height:100vh;
             width:200px;
             top:0;
@@ -124,7 +133,7 @@ nav img{
             text-align: left;
             z-index:2;
             transition:0.5s;
-            
+
 
         }
         nav .fas{
@@ -134,7 +143,7 @@ nav img{
             font-size: 22px;
             cursor:pointer;
         }
-        
+
 
 
     }
@@ -145,17 +154,21 @@ nav img{
         padding-top: 100px;
     }
     .rc{
-        color:#ff6600;
-       
+        color:
+
+#f17b2d;
+
     font-size: 30px;
     font-weight: 100;
     line-height:35px;
     padding:10px;
     }
+
+  
 h1{
-    color:#030508;
-    font-size:36px;
-    font-weight: 600;
+    color:#5a626e;
+    font-size:38px;
+    font-weight: 400;
 }
 p{
     color:#777;
@@ -179,11 +192,11 @@ p{
     transition: 0.5s;
 }
 h3{
-    color:#2b2621;
+    color:#7b6b5b;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     margin:10px 0;
-    
+
 }
 .details:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
@@ -197,8 +210,12 @@ h3{
 .cp{
     display:inline-block;
         text-decoration:none;
-        color:#ff6600;;
-        border:2px solid #ff6600;;
+        color:
+
+#f17b2d;;
+        border:2px solid
+
+#f17b2d;;
         padding:12px 34px;
         font-size:20px;
         font: weight 200px;;
@@ -208,13 +225,17 @@ h3{
 }
 .cp:hover{
     color:#fff;
-    border:2px solid #ff6600;
-    background:#ff6600;
+    border:2px solid
+
+#f17b2d;
+    background:
+
+#f17b2d;
     transition:0.5s;
 }
 .recentp{
 
-   
+
     width: 80%;
     margin:auto;
     text-align: center;
@@ -229,17 +250,17 @@ h3{
     margin-bottom:30px;
     position: relative;
     overflow: hidden;
-    
-   
+
+
 }
 .details-col img{
-    
+
     display: block;
-  max-width:590px;
-  max-height:395px;
-  width: auto;
-  height: auto;
-   
+    max-width:1000px;
+    max-height:390px;
+    width: auto;
+    height: auto;
+
 }
 .layer{
     background:transparent;
@@ -249,7 +270,7 @@ h3{
     top:0;
     left:0;
    transition: 0.5s;;
-    
+
 }
 .layer:hover{
     background:rgb(43,38,33,0.5);
@@ -304,26 +325,30 @@ h3{
     text-align:left;
 }
 .test-col .fas{
-    color: #ff6600;
+    color:
+
+#f17b2d;
 }
 .test-col .far{
-    color: #ff6600;
+    color:
+
+#f17b2d;
 
 }
 @media(max-width:700px){
     .test-col img{
-        
+
         margin-left:0px;
         margin-right:15px;
     }
     .details-col img{
-        
+
         width:100%;
         height: 100%;
         }
      .recentp{
        padding:0;
-       
+
     }
     .layer:hover h3{
         bottom:49%;
@@ -332,29 +357,33 @@ h3{
     .layer:hover{
         opacity:0;
     }
-    
+
 
 }
 
 .footer{
-    background:#000000;
-    width: 100%;
+    background-color: #210005;
     text-align: center;
-    padding:30px 0;
+    padding: 2px 0;
     width: 100%;
-   
+
 
 }
 .footer h4{
     margin-bottom:25px;
     margin-top:20px;
-    font-weight:600;
-    color:#ff6600
-   
+    font-weight:400;
+    font-size: 20px;
+    color:
+
+#ffffff
+
 
 }
 .icons .fab{
-    color:#ff6600;
+    color:
+
+#f17b2d;
     margin: 0 13px;
     cursor: pointer;
     padding:18px 0;
@@ -362,14 +391,18 @@ h3{
 .prev-btn .fas{
     padding-top: 75px;
     padding-left: 175px;
-    color:#ff6600;
+    color:
+
+#f17b2d;
 }
-    
+
 
 .next-btn .fas{
     padding-top: 75px;
     padding-right: 200px;
-    color:#ff6600;
+    color:
+
+#f17b2d;
 }
 #move2{
     opacity:0;
@@ -383,87 +416,131 @@ h3{
     .prev-btn .fas{
         padding-bottom: -100px;
         padding-left: 0px;
-        color:#ff6600;
+        color:
+
+#f17b2d;
         opacity: 0;
     }
-        
-    
+
+
     .next-btn .fas{
         padding-top: 0px;
         padding-right: 0px;
-        color:#ff6600;
+        color:
+
+#f17b2d;
         opacity:0;
     }
     #move2{
         opacity:1;
-        color:#ff6600;
+        color:
+
+#f17b2d;
         padding-right: 20px;
         padding-bottom: 30px;
     }
     #move3{
         opacity:1;
-        color:#ff6600;
+        color:
+
+#f17b2d;
         padding-bottom: 30px;
-       
+
     }
     #logo3{
         height:auto;
         width:auto;
         max-width:100px;
         max-height:100px;
-        
-    }}
+    }
+}
+.form{
+    background-image:linear-gradient(rgba(15, 15, 15, 0.5),rgba(77, 83, 104, 0.55)), url("bckgrnd1.jpg");
+
+    color: white;
+    text-align: center;
+    background-size: cover;
+
+
+}
+
+
+
 .fname,.lname,.email{
+   color: white;
     background: transparent;
     font-size:20px;
     margin: 15px;
     height:30px;
     width:350px;
-    border: 1px solid #5c6164;
+    border: 1px solid #ffffff;
     padding:10px;
 }
 .srttrading{
-    background-color:#ff6600;
+
+    background-color:
+
+#f17b2d;
     color: white;
     font-size:15px;
     font-weight: 600;
     margin: 0px 15px 15px 15px ;
     height:40px;
     width:200px;
-    border: 1px solid #5c6164;
+    border: 1px solid
+
+#f17b2d;
     padding:10px;
     padding-bottom: 10px;
     margin-bottom: 0;
     cursor: pointer;
 }
+.lline{
+    color: white;
+
+}
+::placeholder{
+    color: white;
+
+}
 @media(max-width:700px){
     .fname,.lname,.email{
+        color: white;
         background: transparent;
         font-size:10px;
         margin: 5px;
         height:20px;
         width:300px;
-        border: 1px solid #5c6164;
+        border: 1px solid #ffffff;
         padding: 5px;
-        margin-left:0;
+    }
+    ::placeholder{
+        color: white;
     }
     .srttrading{
-        background-color:#ff6600;
+
+        background-color:
+
+#f17b2d;
         color: white;
         font-size:15px;
         font-weight: 600;
         margin: 5px 15px 15px 15px ;
         height:40px;
         width:200px;
-        border: 1px solid #5c6164;
+        border: 1px solid
+
+#f17b2d;
         padding:10px;
         padding-bottom: 10px;
         margin-bottom: 0;
         cursor: pointer;
+        margin-left: 0;
 
     }
     .lline{
-        font-size: 13px;
+        color: white;
+        font-size: 10px;
         line-height: normal;
     }
     h1{
@@ -472,9 +549,8 @@ h3{
     .rc{
         font-size: 20px;
     }
-.cp{
+    .cp{
         font-size: 15px;
     }
 
 }
-
